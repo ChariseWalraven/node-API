@@ -1,0 +1,8 @@
+{
+  "name": "node-API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ChariseWalraven/node-API.git",
+  "author": "Charise Walraven <charise@code.nl>",
+  "license": "MIT"
+}
