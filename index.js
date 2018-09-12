@@ -1,5 +1,5 @@
-const app = require("express")(),
-     port = process.env.PORT || 3000;
+const app = require("express")();
+const port = process.env.PORT || 3000;
 
 app.get("/", (req, res) => {
   res.json({

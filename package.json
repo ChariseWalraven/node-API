@@ -5,6 +5,9 @@
   "repository": "git@github.com:ChariseWalraven/node-API.git",
   "author": "Charise Walraven <charise@code.nl>",
   "license": "MIT",
+  "scripts": {
+    "start": "index.js" 
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
