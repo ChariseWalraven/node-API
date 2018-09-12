@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-mongoose.set('debug', true);
+mongoose.set("debug", true);
 // connect to the DB 'todo-api' if it exists, if not, create it and then connect to it
-mongoose.connect('mongodb://localhost/todo-api');
+mongoose.connect("mongodb://localhost/todo-api");
 
 // tell Mongo to allow use of Promises
 mongoose.Promise = Promise;

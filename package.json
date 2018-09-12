@@ -6,11 +6,12 @@
   "author": "Charise Walraven <charise@code.nl>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js" 
+    "start": "nodemon"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.2.9"
+    "mongoose": "^5.2.9",
+    "nodemon": "^1.18.4"
   }
 }
