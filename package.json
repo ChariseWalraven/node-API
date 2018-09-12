@@ -6,7 +6,7 @@
   "author": "Charise Walraven <charise@code.nl>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon --inspect"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
