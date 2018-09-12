@@ -8,4 +8,4 @@ mongoose.connect('mongodb://localhost/todo-api');
 mongoose.Promise = Promise;
 
 // export the Todo required from todo.js (like importing a destructured object and then exporting it as an individual object)
-module.exports.Todo = require("./todos");
+module.exports.Todo = require("./todo");
